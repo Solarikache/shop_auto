@@ -78,7 +78,7 @@ class Login_page(Base):
         self.get_current_url()
         self.click_user_menu()
         self.close_banner()
-        self.input_username("72bes@ptct.net")
+        self.input_username("wxowt@ptct.net")
         self.input_password("test_2025!")
         self.click_login_button()
         self.assert_word_in_profile(self.get_profile_word(),"Панель управления")

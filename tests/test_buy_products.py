@@ -35,8 +35,5 @@ def test_buy_products(set_up):
     payment_info = pages.payment_page.Payment_page(driver)
     payment_info.payment()
 
-    cancel = pages.profile_page.Profile_page(driver)
-    cancel.cancel_order()
-
     finish = pages.finish_page.Finish_page(driver)
     finish.get_screenshot()

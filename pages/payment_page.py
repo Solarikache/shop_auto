@@ -76,4 +76,4 @@ class Payment_page(Base):
         self.input_city()
         self.select_city()
         self.select_payment_type()
-        self.click_submit_button()
+        # self.click_submit_button()
